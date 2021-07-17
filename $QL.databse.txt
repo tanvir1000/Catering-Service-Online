@@ -1,0 +1,217 @@
+USE [master]
+GO
+/****** Object:  Database [myoop2db]    Script Date: 1/3/2021 12:01:17 AM ******/
+CREATE DATABASE [myoop2db]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'myoop2db', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\myoop2db.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'myoop2db_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\myoop2db_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
+ALTER DATABASE [myoop2db] SET COMPATIBILITY_LEVEL = 150
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [myoop2db].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [myoop2db] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [myoop2db] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [myoop2db] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [myoop2db] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [myoop2db] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [myoop2db] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [myoop2db] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [myoop2db] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [myoop2db] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [myoop2db] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [myoop2db] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [myoop2db] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [myoop2db] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [myoop2db] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [myoop2db] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [myoop2db] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [myoop2db] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [myoop2db] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [myoop2db] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [myoop2db] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [myoop2db] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [myoop2db] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [myoop2db] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [myoop2db] SET  MULTI_USER 
+GO
+ALTER DATABASE [myoop2db] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [myoop2db] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [myoop2db] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [myoop2db] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [myoop2db] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [myoop2db] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [myoop2db] SET QUERY_STORE = OFF
+GO
+USE [myoop2db]
+GO
+/****** Object:  Table [dbo].[CancelOrder]    Script Date: 1/3/2021 12:01:17 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CancelOrder](
+	[CustomerName] [nvarchar](50) NULL,
+	[CustomerEmail] [nvarchar](50) NULL,
+	[CancelOrder] [nvarchar](max) NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Customer]    Script Date: 1/3/2021 12:01:17 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Customer](
+	[CustomerID] [int] IDENTITY(1201,1) NOT NULL,
+	[CustomerEmail] [nvarchar](50) NOT NULL,
+	[CustomerName] [nchar](50) NOT NULL,
+	[CustomerPassword] [nvarchar](50) NOT NULL,
+	[CustomerPhone] [nvarchar](50) NOT NULL,
+	[CustomerAddress] [nvarchar](50) NOT NULL,
+ CONSTRAINT [PK_CustomerInfo] PRIMARY KEY CLUSTERED 
+(
+	[CustomerEmail] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[OrderNow]    Script Date: 1/3/2021 12:01:17 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[OrderNow](
+	[OrderNumber] [int] IDENTITY(1,1) NOT NULL,
+	[CustomerName] [nvarchar](50) NOT NULL,
+	[PlainRice] [int] NOT NULL,
+	[TikkaMasala] [int] NOT NULL,
+	[FishKebab] [int] NOT NULL,
+	[ChickenBiriyani] [int] NOT NULL,
+	[BeefBiriyani] [int] NOT NULL,
+	[MuttonBiriyani] [int] NOT NULL,
+	[BeefBurger] [int] NOT NULL,
+	[ChickenBurger] [int] NOT NULL,
+	[Sandwich] [int] NOT NULL,
+	[Fries] [int] NOT NULL,
+	[Pizza] [int] NOT NULL,
+	[Wings] [int] NOT NULL,
+	[Water] [int] NOT NULL,
+	[Juice] [int] NOT NULL,
+	[Cola] [int] NOT NULL,
+	[Tea] [int] NOT NULL,
+	[Coffee] [int] NOT NULL,
+	[ChocoShake] [int] NOT NULL,
+	[MangoShake] [int] NOT NULL,
+	[BananaShake] [int] NOT NULL,
+	[StarwberryShake] [int] NOT NULL,
+	[Doughnuts] [int] NOT NULL,
+	[Waffles] [int] NOT NULL,
+	[Muffins] [int] NOT NULL,
+	[IceCream] [int] NOT NULL,
+	[DeliveryTime] [datetime] NULL,
+	[PaymentMethod] [nvarchar](50) NULL,
+	[TotalCost] [int] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Review]    Script Date: 1/3/2021 12:01:17 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Review](
+	[CustomerName] [nvarchar](50) NULL,
+	[Review] [nvarchar](max) NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+INSERT [dbo].[CancelOrder] ([CustomerName], [CustomerEmail], [CancelOrder]) VALUES (N'touhid    ', N'touhid@gmail.com', N'cancel order 28')
+GO
+INSERT [dbo].[CancelOrder] ([CustomerName], [CustomerEmail], [CancelOrder]) VALUES (N'a         ', N'a', N'cancel order 17, 18, 19')
+GO
+SET IDENTITY_INSERT [dbo].[Customer] ON 
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1201, N'a', N'a                                                 ', N'a', N'a', N'a')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1202, N'aa@gmail.com', N'a                                                 ', N'a', N'a', N'a')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1203, N'abc', N'a                                                 ', N'a', N'a', N'a')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1204, N'b', N'b                                                 ', N'b', N'b', N'b')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1208, N'q', N'q                                                 ', N'q', N'q', N'q')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1205, N'sezan', N'sezan                                             ', N'sezan', N'sezan', N'sezan')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1206, N'tanviraditto90@gmail.com', N'tanvir                                            ', N'tanviraditto90@gmail.com', N'01917118127', N'bogura')
+GO
+INSERT [dbo].[Customer] ([CustomerID], [CustomerEmail], [CustomerName], [CustomerPassword], [CustomerPhone], [CustomerAddress]) VALUES (1207, N'touhid@gmail.com', N'touhid                                            ', N'touhid', N'12345', N'Dhaka 1216')
+GO
+SET IDENTITY_INSERT [dbo].[Customer] OFF
+GO
+SET IDENTITY_INSERT [dbo].[OrderNow] ON 
+GO
+INSERT [dbo].[OrderNow] ([OrderNumber], [CustomerName], [PlainRice], [TikkaMasala], [FishKebab], [ChickenBiriyani], [BeefBiriyani], [MuttonBiriyani], [BeefBurger], [ChickenBurger], [Sandwich], [Fries], [Pizza], [Wings], [Water], [Juice], [Cola], [Tea], [Coffee], [ChocoShake], [MangoShake], [BananaShake], [StarwberryShake], [Doughnuts], [Waffles], [Muffins], [IceCream], [DeliveryTime], [PaymentMethod], [TotalCost]) VALUES (1, N'a                                                 ', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, CAST(N'1900-01-01T00:00:00.000' AS DateTime), N'Cash', 0)
+GO
+INSERT [dbo].[OrderNow] ([OrderNumber], [CustomerName], [PlainRice], [TikkaMasala], [FishKebab], [ChickenBiriyani], [BeefBiriyani], [MuttonBiriyani], [BeefBurger], [ChickenBurger], [Sandwich], [Fries], [Pizza], [Wings], [Water], [Juice], [Cola], [Tea], [Coffee], [ChocoShake], [MangoShake], [BananaShake], [StarwberryShake], [Doughnuts], [Waffles], [Muffins], [IceCream], [DeliveryTime], [PaymentMethod], [TotalCost]) VALUES (2, N'a                                                 ', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, CAST(N'1900-01-01T00:00:00.000' AS DateTime), N'Cash', 0)
+GO
+INSERT [dbo].[OrderNow] ([OrderNumber], [CustomerName], [PlainRice], [TikkaMasala], [FishKebab], [ChickenBiriyani], [BeefBiriyani], [MuttonBiriyani], [BeefBurger], [ChickenBurger], [Sandwich], [Fries], [Pizza], [Wings], [Water], [Juice], [Cola], [Tea], [Coffee], [ChocoShake], [MangoShake], [BananaShake], [StarwberryShake], [Doughnuts], [Waffles], [Muffins], [IceCream], [DeliveryTime], [PaymentMethod], [TotalCost]) VALUES (3, N'a                                                 ', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, CAST(N'1900-01-01T00:00:00.000' AS DateTime), N'Cash', 0)
+GO
+INSERT [dbo].[OrderNow] ([OrderNumber], [CustomerName], [PlainRice], [TikkaMasala], [FishKebab], [ChickenBiriyani], [BeefBiriyani], [MuttonBiriyani], [BeefBurger], [ChickenBurger], [Sandwich], [Fries], [Pizza], [Wings], [Water], [Juice], [Cola], [Tea], [Coffee], [ChocoShake], [MangoShake], [BananaShake], [StarwberryShake], [Doughnuts], [Waffles], [Muffins], [IceCream], [DeliveryTime], [PaymentMethod], [TotalCost]) VALUES (4, N'a                                                 ', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, CAST(N'1900-01-01T00:00:00.000' AS DateTime), N'Cash', 0)
+GO
+SET IDENTITY_INSERT [dbo].[OrderNow] OFF
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'sadasdf   ', N'asdaSF asdfASD asdfASD F asdf ASD FasdfdASD F asdf ASDF')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'          ', N'good food')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'sadasdf   ', N'asdaSF asdfASD asdfASD F asdf ASD FasdfdASD F asdf ASDF')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'a         ', N'good food')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'sadasdf   ', N'asdaSF asdfASD asdfASD F asdf ASD FasdfdASD F asdf ASDF')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'sadasdf   ', N'asdaSF asdfASD asdfASD F asdf ASD FasdfdASD F asdf ASDF')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'a         ', N'asdfsafd adsfasd')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'a         ', N'bad food')
+GO
+INSERT [dbo].[Review] ([CustomerName], [Review]) VALUES (N'touhid    ', N'quick delivery')
+GO
+USE [master]
+GO
+ALTER DATABASE [myoop2db] SET  READ_WRITE 
+GO

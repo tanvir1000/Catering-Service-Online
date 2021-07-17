@@ -1,0 +1,86 @@
+C:\Users\DarkSlayer\source\repos\Catering Service Online\bin\Debug\Catering Service Online.exe.config
+C:\Users\DarkSlayer\source\repos\Catering Service Online\bin\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online\bin\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.Properties.Resources.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering Service Online.csproj.GenerateResource.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering Service Online.csproj.CoreCompileInputs.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering Service Online.csprojAssemblyReference.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.CustomerMenu.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlAboutUs.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlDessert.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlDrinks.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlFastFood.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlOrderNow.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlReview.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlShakes.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UserControlTraditional.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.FormLogin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.FormRegisterNew.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\bin\Debug\Catering Service Online.exe.config
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\bin\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\bin\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering Service Online.csprojAssemblyReference.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.CustomerMenu.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.FormLogin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.FormRegisterNew.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.Properties.Resources.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlAboutUs.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlDessert.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlDrinks.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlFastFood.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlOrderNow.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlReview.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlShakes.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering_Service_Online.UserControlTraditional.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering Service Online.csproj.GenerateResource.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering Service Online.csproj.CoreCompileInputs.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online beta\obj\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\bin\Debug\Catering Service Online.exe.config
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\bin\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\bin\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering Service Online.csprojAssemblyReference.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.CustomerMenu.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.FormLogin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.FormRegisterNew.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.Properties.Resources.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlAboutUs.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlDessert.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlDrinks.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlFastFood.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlOrderNow.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlReview.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlShakes.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UserControlTraditional.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering Service Online.csproj.GenerateResource.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering Service Online.csproj.CoreCompileInputs.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.Admin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online - Copy\obj\Debug\Catering_Service_Online.UpdateForm.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.Admin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online\obj\Debug\Catering_Service_Online.UpdateForm.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\bin\Debug\Catering Service Online.exe.config
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\bin\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\bin\Debug\Catering Service Online.pdb
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering Service Online.csprojAssemblyReference.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.Admin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.CustomerMenu.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.FormLogin.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.FormRegisterNew.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.Properties.Resources.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UpdateForm.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlAboutUs.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlDessert.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlDrinks.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlFastFood.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlOrderNow.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlReview.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlShakes.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering_Service_Online.UserControlTraditional.resources
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering Service Online.csproj.GenerateResource.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering Service Online.csproj.CoreCompileInputs.cache
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering Service Online.exe
+C:\Users\DarkSlayer\source\repos\Catering Service Online [Final]\obj\Debug\Catering Service Online.pdb

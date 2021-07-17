@@ -1,0 +1,10 @@
+
+select * from OrderNow 
+select * from Customer 
+select * from CancelOrder
+select * from Review
+
+delete from Review where Review = ''
+delete from CancelOrder where CancelOrder = ''
+delete from OrderNow where CustomerName = ''
+delete from Customer where CustomerName = ''
